@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "swiftmailer/swiftmailer": "^6.0"
+    },"autoload": {
+    "classmap": ["classes"],
+    "files": ["init/params.php"],
+    "psr-4": {
+        "":"classes/"
+    }
+}
+}
